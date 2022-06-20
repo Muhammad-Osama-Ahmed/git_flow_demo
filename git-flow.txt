@@ -1,0 +1,52 @@
+# init feature branch
+git flow init
+
+#check branches
+git branch -a
+
+#Start a new feature
+git flow feature start MYFEATURE
+
+#Finish up a feature
+git flow feature finish MYFEATURE
+
+#Publish
+
+#Publish a feature
+git flow feature publish MYFEATURE
+
+#Getting a published feature
+git flow feature pull origin MYFEATURE
+
+#track a feature
+git flow feature track MYFEATURE
+
+#Release
+
+#Start a release
+git flow release start '0.1.0'
+
+#publish release
+git flow release publish '0.1.0'
+
+#track release
+git flow release track '0.1.0'
+
+#Finish Release
+git flow release finish '0.1.0'
+
+#Hot fix
+
+#hot fix main branch
+git flow hotfix start hotfix_branch
+
+#after fixing
+git flow hotfix start hotfix_branch
+
+====
+close editor after commit msg: press ESC :wq ENTER
+
+Resource:
+git-flow_cheatsheet.pdf
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+https://www.youtube.com/watch?v=WQuxeEvaCxs&ab_channel=CameronMcKenzie
